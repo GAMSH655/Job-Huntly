@@ -10,27 +10,54 @@ import Vector from "../assets/vector.png"
 import Amd from "../assets/Amd.png"
 import Tesla from "../assets/Tesla.png"
 const Hero = () => {
+  const inputBaseClasses = "p-2 bg-transparent border-b-[0.5px] border-[#D6DDEB] focus:border-2 focus:border-skyBlue outline-none w-full";
+  const containerClasses = "bg-white shadow-md mt-[30px] p-[9px] flex flex-wrap md:justify-start md:items-center flex-col md:flex-row";
+  const inputWrapperClasses = "flex m-5";
+
   return (
    <div className="">
        <div className="bg-[#F8F8FD] p-[50px] flex justify-between relative pattern  ">
       <div className="mt-3">
-        <h1 className="text-[72px] font-bold font-clash">Discover </h1>
-        <h1 className="text-[72px] font-bold  font-clash"> more than</h1>
-        <h1 className="text-[72px] font-bold text-skyBlue font-clash"> 500+ jobs</h1>
+        <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[72px] font-bold ">
+        Discover
+      </h1>
+      <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[72px] font-bold ">
+        more than
+      </h1>
+      <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[72px] font-bold text-skyBlue ">
+        500+ jobs
+      </h1>
+
          <img src={waggyLine} alt="" />
         <p className="">Great platform for the job seeker that searching <span className="block">for new career heights and passionate about startups.</span> </p>
       
-      <div className="bg-white shadow-md p-[9px] flex flex-wrap md:justify-start md:items-center ">
-       <div className="flex m-5">
-       <FaMagnifyingGlass className='m-2' /> <input type="text" placeholder='job title' className='p-2 bg-transparent  border-b-[0.5px] border-[#D6DDEB] focus:border-2 focus:border-skyBlue outline-none w-full' />
-       </div>
-       <div className="flex m-5 ">
-       <TiLocationOutline className='m-2' /> <input type="text" placeholder='job title' className='p-2 bg-transparent border-b-[0.5px] border-[#D6DDEB] focus:border-2 focus:border-skyBlue outline-none' />
-       </div>
-       <div className=" flex   md:justify-center md:items-center">
-       <button className='bg-skyBlue p-2 block'> Search my job</button>
-       </div>
+        <div className={containerClasses}>
+     
+      <div className={inputWrapperClasses}>
+        <FaMagnifyingGlass className="m-2" />
+        <input 
+          type="text" 
+          placeholder="Job title" 
+          className={inputBaseClasses} 
+        />
       </div>
+
+   
+      <div className={inputWrapperClasses}>
+        <TiLocationOutline className="m-2" />
+        <input 
+          type="text" 
+          placeholder="Location" 
+          className={inputBaseClasses} 
+        />
+      </div>
+
+  
+      <div className="flex md:justify-center md:items-center m-5">
+        <button className="bg-skyBlue p-2 block w-full">Search my job</button>
+      </div>
+    </div>
+
       <p className="p-2 text-[#202430]">Popular : UI Designer, UX Researcher, Android, Admin</p>
       </div>
       <div className="hidden   md:flex justify-center items-center"> 
