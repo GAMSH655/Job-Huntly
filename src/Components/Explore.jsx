@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
 import Design from "../assets/Design.png"
 import Sales from "../assets/Sales.png"
