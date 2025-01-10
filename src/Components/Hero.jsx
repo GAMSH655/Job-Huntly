@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
    <div className="">
-       <div className="bg-[#F8F8FD] p-[50px] flex justify-between relative pattern  ">
+       <div className="bg-[#F8F8FD] flex justify-between relative pattern  ">
       <div className="mt-3">
         <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[72px] font-bold ">
         Discover

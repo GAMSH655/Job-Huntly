@@ -84,3 +84,11 @@ body{
   .item8 {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
   }
+
+  .trans{
+    transform: rotate(-15deg);
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+   
+  }
