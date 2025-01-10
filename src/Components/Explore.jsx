@@ -44,13 +44,13 @@ const Explore = () => {
           {/* <div className="h-[100px] w-[250px] bg-white trans">
 
           </div> */}
-         <div className="flex justify-evenly  p-[20px]">
-         <div className="p-[30px]">
-         <h3 className="text-white font-bold text-[3rem]">Start posting  
-            <span className='block'>jobs today</span>
+         <div className="flex flex-wrap justify-center items-center md:justify-evenly p-[10px] md:p-[20px]">
+         <div className=" p-[15px] md:p-[30px] ">
+         <h3 className="text-white font-bold text-[1.5rem] md:text-[3rem]">Start posting  
+            jobs today
             </h3>
-            <p className="text-white ">start posting jobs only for $10</p>
-            <button className='bg-white p-2 text-skyBlue hover:bg-[#181742] w-[180px] hover:text-white transition-all'>Sign up for free</button>
+            <p className="text-white md:text-left text-center">start posting jobs only for $10</p>
+            <button className='bg-white p-2 text-skyBlue hover:bg-[#181742]  w-full md:w-[180px] hover:text-white transition-all'>Sign up for free</button>
          </div>
          <img src={ DashBoard} alt="" />
          </div>
