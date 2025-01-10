@@ -7,7 +7,7 @@ import Tech  from "../assets/Engineering.png"
 import Tag  from "../assets/Tag.png"
 import Bag  from "../assets/Bag.png"
 import Human   from "../assets/Human.png"
-import DashBoard from "../assets/DashBoard.png"
+import DashBoard from "../../src/assets/DashBoard.png"
 const Explore = () => {
   const CateGoryData= [
     { catImg:Design , catTitle:"Design" ,catText:"235 jobs available"},
