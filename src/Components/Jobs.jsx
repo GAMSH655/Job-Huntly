@@ -1,7 +1,13 @@
+import { FaArrowRight } from 'react-icons/fa6'
 const Jobs = () => {
   return (
     <div>
-      {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam nostrum, fuga natus molestiae sed magni beatae optio sapiente enim ipsum architecto recusandae, qui perspiciatis facilis tempore atque tenetur veritatis. */}
+    <div className="flex justify-between">
+       <h3 className="text-[20px] md:text-[3rem] m-[20px] font-bold">
+        Explore by <span className="text-skyBlue">categories</span>
+        </h3>
+        <p className="text-[#4640DE] font-semibold hidden md:flex justify-center md:items-center">show all jobs <FaArrowRight/></p>
+       </div>
     </div>
   )
 }
