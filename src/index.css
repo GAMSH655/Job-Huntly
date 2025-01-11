@@ -16,7 +16,6 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 
@@ -93,10 +92,12 @@ body{
    
   }
   #rectangle {
-    background-image: url("../src/assets/Rectangle.png");
-    background-size: cover; /* Adjusts image to cover the element */
-    background-repeat: no-repeat; /* Prevents repeating */
-    background-position: center; /* Centers the image */
+    /* background-image: url("../src/assets/Rectangle.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;  */
+    clip-path: polygon(25% 0, 80% 0%, 100% 0, 100% 80%, 70% 100%, 20% 100%, 0 100%, 0% 20%);
+    background-color: #4640DE;
 }
 #pat{
   background-image: url("../src/assets/Pattern.png");

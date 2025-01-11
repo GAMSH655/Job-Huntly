@@ -58,9 +58,11 @@ const Hero = () => {
 
       <p className="p-2 text-[#202430]">Popular : UI Designer, UX Researcher, Android, Admin</p>
       </div>
+     
       <div className="hidden   md:flex justify-center items-center"> 
         <img src={Pic} alt=""  className=''/>
       </div>
+   
     </div>
     <div className=" p-[50px] ">
      <p className="text-darkText"> companies we have help grow</p>
