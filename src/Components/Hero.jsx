@@ -66,7 +66,7 @@ const Hero = () => {
      <p className="text-darkText"> companies we have help grow</p>
     <div className="wrapper">
     <div className="item item1"><img src={Vod} alt="" /></div>
-    <div className="item item2"><img src={Intel} alt="" /></div>
+    <div className="item item2"><img src={Vintel} alt="" /></div>
     <div className="item item3"><img src={Tesla} alt="" /></div>
     <div className="item item4"><img src={Amd} alt="" /></div>
     <div className="item item5"><img src={Vector} alt="" /></div>

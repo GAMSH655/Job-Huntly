@@ -1,86 +1,80 @@
 import React from 'react';
 import Logo from '../assets/Logo.png';
+import { FaFacebook , FaInstagram , FaDribbble , FaTwitter , FaLinkedinIn } from 'react-icons/fa6';
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-12">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col r md:flex-row md:justify-between">
-        <div className="w-[400px]">
+    <footer className="bg-gray-900 text-gray-400 py-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
         <img src={Logo} alt="" />
-        <p className="mt-2 text-gray-400 p-[10px]">Great platform for the job seeker that passionate about startups. Find your dream job easier..</p>
-        </div>
-         
-
-          {/* Middle section: Links */}
-          <div>
-            <h3 className="font-semibold text-lg">About</h3>
-            <ul className="mt-2 space-y-2">
-              <li>
-                <a href="/" className="text-gray-400 hover:text-white capitalize">company</a>
-              </li>
-              <li>
-                <a href="/about" className="text-gray-400 hover:text-white capitalize">price</a>
-              </li>
-              <li>
-                <a href="/services" className="text-gray-400 hover:text-white capitalize">advices</a>
-              </li>
-              <li>
-                <a href="/contact" className="text-gray-400 hover:text-white capitalize">privacy policy</a>
-              </li>
-            </ul>
-          </div>
-          
-          
-          <div>
-            <h3 className="font-semibold text-lg capitalize">resources</h3>
-            <ul className="mt-2 space-y-2">
-              <li>
-                <a href="/" className="text-gray-400 hover:text-white capitalize">help doc</a>
-              </li>
-              <li>
-                <a href="/about" className="text-gray-400 hover:text-white  capitalize">guide</a>
-              </li>
-              <li>
-                <a href="/services" className="text-gray-400 hover:text-white  capitalize">update</a>
-              </li>
-              <li>
-                <a href="/contact" className="text-gray-400 hover:text-white capitalize">contact us</a>
-              </li>
-            </ul>
-          </div>
-
-        
-          
-          <div >
-            <h3 className="font-semibold text-lg">Get jobs notifcation</h3>
-            <p className="mt-2 text-gray-400">The latest job news, articles, sent to your inbox weekly..</p>
-            <div className="flex ">
-                <input type="text" 
-                className='p-[7px] text-gray-600 focus:border-2 focus:border-skyBlue ' 
-                placeholder='Email address'
-                />
-                <button className="bg-skyBlue p-2">Search my job</button>
-            </div>
-          </div>
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <p className="text-sm mt-[20px]">
+            Great platform for the job seeker that passionate about startups. Find your dream job easier.
+          </p>
         </div>
 
-        <div className="mt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
+        {/* About Section */}
+        <div>
+          <h3 className="text-white text-sm font-semibold mb-4">About</h3>
+          <ul className="space-y-2">
+            <li><a href="#" className="hover:text-white">Companies</a></li>
+            <li><a href="#" className="hover:text-white">Pricing</a></li>
+            <li><a href="#" className="hover:text-white">Terms</a></li>
+            <li><a href="#" className="hover:text-white">Advice</a></li>
+            <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        {/* Resources Section */}
+        <div>
+          <h3 className="text-white text-sm font-semibold mb-4">Resources</h3>
+          <ul className="space-y-2">
+            <li><a href="#" className="hover:text-white">Help Docs</a></li>
+            <li><a href="#" className="hover:text-white">Guide</a></li>
+            <li><a href="#" className="hover:text-white">Updates</a></li>
+            <li><a href="#" className="hover:text-white">Contact Us</a></li>
+          </ul>
+        </div>
+
+        {/* Newsletter Section */}
+        <div>
+          <h3 className="text-white text-sm font-semibold mb-4">Get job notifications</h3>
+          <p className="text-sm mb-4">
+            The latest job news, articles, sent to your inbox weekly.
+          </p>
+          <form className="flex">
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="w-full p-2 rounded-l-md focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="bg-indigo-600 text-white px-4 rounded-r-md hover:bg-indigo-700"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div className="mt-10 border-t border-gray-700 pt-6 flex justify-evenly items-center">
+        <p className="text-sm">&copy; 2021 JobHuntly. All rights reserved.</p>
+        <div className="flex justify-center mt-4 space-x-4">
+          <a href="#" className="text-gray-400 hover:text-white"> {/* Replace with actual social icons */}
+            <FaFacebook/>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <FaInstagram/>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+          <FaDribbble/>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+          <FaTwitter/>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+           <FaLinkedinIn/>
+          </a>
         </div>
       </div>
     </footer>

@@ -1,85 +1,85 @@
-import  { useState } from 'react';
-import Logo from '../assets/Logo.png';
-
+import React, { useState } from "react";
+import logo from "../assets/logo.png"
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="p-5 flex justify-between items-center bg-[#F8F8FD] ">
-      {/* Left Section - Logo */}
-      <div className="flex items-center space-x-5">
-        <img src={Logo} alt="Logo" />
-        {/* Navigation links (visible on medium and larger screens) */}
-        <nav className="hidden md:flex space-x-5">
-          <a href="#" className="capitalize text-[#515B6F] font-semibold hover:text-skyBlue">
+    <header className="bg-white shadow-sm fixed w-full z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+        {/* Logo */}
+        <div className="flex items-center">
+          <img src={logo} alt="JobHuntly"/>
+        </div>
+
+        {/* Menu items (Desktop) */}
+        <nav className="hidden md:flex space-x-6">
+          <a href="#find-jobs" className="text-gray-600 hover:text-gray-900">
             Find Jobs
           </a>
-          <a href="#" className="capitalize text-[#515B6F] font-semibold hover:text-skyBlue">
-            Browse Company
+          <a href="#browse-companies" className="text-gray-600 hover:text-gray-900">
+            Browse Companies
+          </a>
+          <a href="#login" className="text-gray-600 hover:text-gray-900">
+            Login
+          </a>
+          <a
+            href="#sign-up"
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          >
+            Sign Up
           </a>
         </nav>
-      </div>
 
-      {/* Right Section - Login/Sign Up */}
-      <div className="hidden md:flex items-center space-x-3">
-        <a
-          href="#"
-          className="font-bold capitalize text-lg text-skyBlue hover:bg-skyBlue hover:text-white py-2 px-4 transition-all"
+        {/* Menu button (Mobile) */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none"
         >
-          Login
-        </a>
-        <span className="border-[0.5px] border-[#D6DDEB] h-8"></span>
-        <a
-          href="#"
-          className="font-bold capitalize text-lg text-skyBlue hover:bg-skyBlue hover:text-white py-2 px-4 transition-all"
-        >
-          Sign Up
-        </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+            />
+          </svg>
+        </button>
       </div>
-
-      {/* Mobile Menu Toggle Button */}
-      <button
-        onClick={toggleMenu}
-        className="block md:hidden text-skyBlue text-2xl focus:outline-none"
-        aria-label="Toggle Menu"
-      >
-        {isMenuOpen ? '✖' : '☰'}
-      </button>
 
       {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md z-10 flex flex-col p-5 space-y-3 md:hidden">
+      {menuOpen && (
+        <nav className="md:hidden bg-white shadow-lg">
           <a
-            href="#"
-            className="capitalize text-[#515B6F] font-semibold hover:text-skyBlue"
+            href="#find-jobs"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
           >
             Find Jobs
           </a>
           <a
-            href="#"
-            className="capitalize text-[#515B6F] font-semibold hover:text-skyBlue"
+            href="#browse-companies"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
           >
-            Browse Company
+            Browse Companies
           </a>
-          <div className="flex flex-col space-y-3">
-            <a
-              href="#"
-              className="font-bold capitalize text-lg text-skyBlue hover:bg-skyBlue hover:text-white py-2 px-4 transition-all"
-            >
-              Login
-            </a>
-            <a
-              href="#"
-              className="font-bold capitalize text-lg text-skyBlue hover:bg-skyBlue hover:text-white py-2 px-4 transition-all"
-            >
-              Sign Up
-            </a>
-          </div>
-        </div>
+          <a
+            href="#login"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >
+            Login
+          </a>
+          <a
+            href="#sign-up"
+            className="block px-4 py-2 bg-blue-600 text-white hover:bg-blue-700"
+          >
+            Sign Up
+          </a>
+        </nav>
       )}
     </header>
   );

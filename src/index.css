@@ -48,7 +48,7 @@ body{
     position: absolute;
     left: max(calc(200px * 8), 100%);
     animation-name: scrollLeft;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }

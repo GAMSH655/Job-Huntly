@@ -4,10 +4,10 @@ import { LatestJobInfo } from "../Components/JobData"
 import { GoDotFill } from "react-icons/go";
 const LatestJobs = () => {
   return (
-    <div className='bg-[#F7F8FC] m-[15px] md:m-[30px] p-[15px] md:p-[30px]' id='pat'>
+    <div className='bg-[#F7F8FC] m-[15px] md:m-[30px] p-[0px] md:p-[30px]' id='pat'>
        <div className="flex justify-between ">
               <h3 className="text-[20px] md:text-[3rem] m-[20px] font-bold">
-                 Featured <span className="text-skyBlue">jobs</span>
+                Latest <span className="text-skyBlue">jobs opens </span>
                </h3>
                <p className="text-[#4640DE] font-semibold hidden md:flex justify-center md:items-center">show all jobs <FaArrowRight/></p>
               </div>
@@ -20,18 +20,18 @@ const LatestJobs = () => {
                     <div className=" p-[0px] md:p-[20px]">
                     <h1 className="font-bold text-xl capitalize p-[10px]">{jobTitle}</h1>
                     <div className="flex justify-start items-center">
-                     <p className="">{imgName}</p>
+                     <p className=" p-[10px]">{imgName}</p>
                      <GoDotFill className='text-[#7C8493] ml-4'/>
                      <p className="text-[#7C8493] p-[10px] capitalize">{jobLocation}</p> 
                     </div>
                    
-                      <button className=" m-2 md:m-3 capitalize bg-[#56CDAD1A] p-[10px] rounded-full text-[#56CDAD]">
+                      <button className=" m-1 md:m-3 capitalize bg-[#56CDAD1A] p-[10px] rounded-full text-[#56CDAD]">
                         {jobType1}
                       </button>
-                      <button className="bg-[#EB85331A] text-[#FFB836]  m-2 md:m-3 capitalize p-[10px] rounded-full">
+                      <button className="bg-[#EB85331A] text-[#FFB836]  m-1 md:m-3 capitalize p-[10px] rounded-full">
                         {jobType2}
                       </button>
-                      <button className="bg-[#4540de8c] text-[#4640DE]  m-2 md:m-3 capitalize p-[10px] rounded-full">
+                      <button className="bg-[#4540de8c] text-[#4640DE]  m-1 md:m-3 capitalize p-[10px] rounded-full">
                         {jobType3}
                       </button>
                     </div>
