@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../src/assets/logo.png"
+import Logo from "../src/assets/Logo.png"
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} alt="JobHuntly"/>
+          <img src={Logo} alt="JobHuntly"/>
         </div>
 
         {/* Menu items (Desktop) */}
