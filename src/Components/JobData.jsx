@@ -151,7 +151,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Revolut,
             jobTitle: "Email marketing",
-            jobLocation: "Revolut Madrid, Spain",
+            imgName: "Revolut",
+            jobLocation: " Madrid, Spain",
             jobPP: "Revolut is looking for Customer Manager to join the marketing team...",
             jobType1: "marketing",
             jobType2: "design",
@@ -159,7 +160,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: DropBox,
             jobTitle: "Brand designer",
-            jobLocation: "Dropbox San Francisco, US",
+            imgName: "DropBox",
+            jobLocation: " San Francisco, US",
             jobPP: "DropBox is looking for a Customer Manager to join the marketing team...",
             jobType1: "design",
             jobType2: "business",
@@ -167,6 +169,7 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Pitch,
             jobTitle: "Email Marketing",
+            imgName: "Pitch",
             jobLocation: "Pitch Berlin, Germany",
             jobPP: "Pitch is looking for a Customer Manager to join the marketing team...",
             jobType1: "marketing",
@@ -174,14 +177,16 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: BlinkList,
             jobTitle: "Visual design",
-            jobLocation: "BlinkList Berlin, Germany",
+            imgName: "BlinkList",
+            jobLocation: " Berlin, Germany",
             jobPP: "BlinkList is looking for a Customer Manager to join the marketing team...",
             jobType1: "design",
         },
         {
             jobsImg: ClassPass,
             jobTitle: "Product Designer",
-            jobLocation: "ClassPass Manchester, UK",
+            imgName: "ClassPass",
+            jobLocation: " Manchester, UK",
             jobPP: "ClassPass is looking for a Visual Designer to help the team design...",
             jobType1: "marketing",
             jobType2: "design",
@@ -189,7 +194,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Canva,
             jobTitle: "Lead Designer",
-            jobLocation: "Canva Ontario, Canada",
+            imgName: "Canva",
+            jobLocation: "Ontario, Canada",
             jobPP: "Canva is looking for a Lead Engineer to help develop...",
             jobType1: "design",
             jobType2: "business",
@@ -197,14 +203,16 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Godaddy,
             jobTitle: "Brand Strategist",
-            jobLocation: "Godaddy Marseille, France",
+            imgName: "Godaddy",
+            jobLocation: " Marseille, France",
             jobPP: "Godaddy is looking for a Lead Engineer to help develop...",
             jobType1: "marketing",
         },
         {
             jobsImg: Twitter,
             jobTitle: "Data Analyst",
-            jobLocation: "Twitter San Diego, USA",
+            imgName: "Twitter",
+            jobLocation: " San Diego, USA",
             jobPP: "Twitter is looking for a Data Analyst to help develop...",
             jobType1: "technology",
         },
@@ -215,7 +223,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Nomad,
             jobTitle: "social media assistant",
-            jobLocation: "Nomad pasris, france",
+            imgName: "Nomad",
+            jobLocation: " pasris, france",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"
@@ -223,7 +232,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: DropBox,
             jobTitle: "Brand designer",
-            jobLocation: "Dropbox San Francisco, US",
+            imgName: "DropBox",
+            jobLocation: "San Francisco, US",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"
@@ -231,7 +241,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg:Terraform,
             jobTitle: "interactive developer",
-            jobLocation: "Terraform hamburg, Germany",
+            imgName: "Terraform",
+            jobLocation: " hamburg, Germany",
             jobPP: "Pitch is looking for a Customer Manager to join the marketing team...",
             jobType1: "full-time",
             jobType2: "marketing",
@@ -240,7 +251,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg:Packer,
             jobTitle: "hr manager",
-            jobLocation:"Packer lucern,switzerland",
+            imgName: "Packer",
+            jobLocation:" lucern,switzerland",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"
@@ -248,7 +260,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Netlify,
             jobTitle: "social media assistant",
-            jobLocation: "Netlify paris france ",
+            imgName: "Netlify",
+            jobLocation: "paris france ",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design",
@@ -256,7 +269,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Maze,
             jobTitle: "brand Designer",
-            jobLocation: " Maze sanfrancisco, Usa",
+            imgName: "Maze",
+            jobLocation: "sanfrancisco, Usa",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"
@@ -264,7 +278,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Udacity,
             jobTitle: "interactive developer",
-            jobLocation: "Udacity hamburg, Germany",
+            imgName: "Udacity",
+            jobLocation: "hamburg, Germany",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"
@@ -272,7 +287,8 @@ import Webflow from "../assets/Webflow.png";
         {
             jobsImg: Webflow,
             jobTitle: "hr manager",
-            jobLocation:"Packer lucern,switzerland",
+            imgName: "Webflow",
+            jobLocation:"lucern,switzerland",
             jobType1: "full-time",
             jobType2: "marketing",
             jobType3 : "design"

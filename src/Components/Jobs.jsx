@@ -1,6 +1,7 @@
 import { FaArrowRight } from 'react-icons/fa6'
 import "react-multi-carousel/lib/styles.css";
 import { FeatureData } from '../Components/JobData';
+import { GoDotFill } from "react-icons/go";
 const Jobs = () => {
   return (
     <div>
@@ -12,14 +13,18 @@ const Jobs = () => {
        </div>
        <div className="md:grid md:grid-cols-4 md:gap-4  md:m-[30px] hidden">
         {
-       FeatureData.map(({jobsImg ,jobTitle ,jobLocation , jobPP , jobType1 , jobType2}, index)=>{
+       FeatureData.map(({jobsImg ,jobTitle ,jobLocation , jobPP , jobType1 , jobType2 ,imgName}, index)=>{
             return <div className="border-2 border-[#D6DDEB]" key={index} >
               <div className=" flex justify-between items-center p-[10px]">
               <img src={jobsImg} alt="" />
               <button className="capitalize border-2 border-[#4640DE] p-[5px] hover:bg-skyBlue hover:text-white transition-all">full time</button>
               </div>
               <h1 className="font-bold text-xl capitalize p-[10px]">{jobTitle}</h1>
-              <p className="text-[#7C8493] p-[10px] capitalize">{jobLocation }</p>
+               <div className="flex justify-start items-center">
+                                   <p className="p-[7px]">{imgName}</p>
+                                   <GoDotFill className='text-[#7C8493] ml-2'/>
+                                   <p className="text-[#7C8493] p-[10px] capitalize">{jobLocation}</p> 
+                                  </div>
               <p className="text-[#7C8493] p-[10px]">{jobPP}</p>
               <button className="m-3 capitalize bg-[#EB85331A] p-[9px] rounded-full text-[#FFB836] ">{jobType1}</button>
               <button className="bg-[#4640DE1A] text-[#4640DE]   m-3 capitalize p-[10px] rounded-full ">{jobType2}</button>

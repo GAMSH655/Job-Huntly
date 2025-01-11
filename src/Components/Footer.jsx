@@ -54,12 +54,12 @@ const Footer = () => {
           <div >
             <h3 className="font-semibold text-lg">Get jobs notifcation</h3>
             <p className="mt-2 text-gray-400">The latest job news, articles, sent to your inbox weekly..</p>
-            <div className="flex">
+            <div className="flex ">
                 <input type="text" 
                 className='p-[7px] text-gray-600 focus:border-2 focus:border-skyBlue ' 
                 placeholder='Email address'
                 />
-                <button className="bg-skyBlue p-2 block w-full">Search my job</button>
+                <button className="bg-skyBlue p-2">Search my job</button>
             </div>
           </div>
 

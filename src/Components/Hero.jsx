@@ -3,7 +3,7 @@ import {FaMagnifyingGlass  } from "react-icons/fa6"
 import { TiLocationOutline } from "react-icons/ti";
 import Pic from "../assets/Pic.png"
 import Vod from "../../src/assets/Vod.png"
-import intel from "../../src/assets/intel.png"
+import Intel from "../../src/assets/intel.png"
 import Vector from "../../src/assets/Vector.png"
 import Amd from "../../src/assets/Amd.png"
 import Tesla from "../../src/assets/Tesla.png"
@@ -66,7 +66,7 @@ const Hero = () => {
      <p className="text-darkText"> companies we have help grow</p>
     <div className="wrapper">
     <div className="item item1"><img src={Vod} alt="" /></div>
-    <div className="item item2"><img src={intel} alt="" /></div>
+    <div className="item item2"><img src={Intel} alt="" /></div>
     <div className="item item3"><img src={Tesla} alt="" /></div>
     <div className="item item4"><img src={Amd} alt="" /></div>
     <div className="item item5"><img src={Vector} alt="" /></div>
