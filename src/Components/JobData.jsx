@@ -132,7 +132,7 @@
 
 
 import Revolut from "../assets/Revolut.png";
-import DropBox from "../assets/DropBox.png";
+import DropBox from "../assets/Dropbox.png";
 import Pitch from "../assets/Pitch.png";
 import BlinkList from "../assets/BlinkList.png"; // Ensure case matches the file system
 import ClassPass from "../assets/ClassPass.png";
