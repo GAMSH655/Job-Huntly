@@ -96,7 +96,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;  */
-    clip-path: polygon(25% 0, 80% 0%, 100% 0, 100% 80%, 70% 100%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(25% 0, 80% 0%, 100% 0, 100% 85%, 70% 100%, 20% 100%, 0 100%, 0% 20%);
     background-color: #4640DE;
 }
 #pat{
