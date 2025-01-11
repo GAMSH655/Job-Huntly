@@ -135,7 +135,7 @@ import Revolut from "../assets/Revolut.png";
 import DropBox from "../assets/Dropbox.png";
 import Pitch from "../assets/Pitch.png";
 import BlinkList from "../assets/Blinklist.png"; // Ensure case matches the file system
-import ClassPass from "../assets/ClassPass.png";
+import ClassPass from "../assets/Classpass.png";
 import Canva from "../assets/Canva.png";
 import Godaddy from "../assets/Godaddy.png";
 import Twitter from "../assets/Twitter.png";
