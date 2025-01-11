@@ -3,7 +3,7 @@ import {FaMagnifyingGlass  } from "react-icons/fa6"
 import { TiLocationOutline } from "react-icons/ti";
 import Pic from "../assets/Pic.png"
 import Vod from "../../src/assets/Vod.png"
-import Intel from "../../src/assets/Intel.png"
+import Vintel from "../../src/assets/Vintel.png"
 import Vector from "../../src/assets/Vector.png"
 import Amd from "../../src/assets/Amd.png"
 import Tesla from "../../src/assets/Tesla.png"
