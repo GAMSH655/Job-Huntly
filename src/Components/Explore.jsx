@@ -20,7 +20,7 @@ const Explore = () => {
     { catImg: Human , catTitle:"human resources" ,catText:"346 jobs available"},
   ]
   return (
-    <div className='  m-[0px] md:m-[50px] '>
+    <div className='m-[0px] md:m-[50px] '>
        <div className="flex justify-between">
        <h3 className="text-[20px] md:text-[3rem] m-[20px] font-bold">
         Explore by <span className="text-skyBlue">categories</span>
