@@ -7,7 +7,7 @@ import Tech  from "../assets/Engineering.png"
 import Tag  from "../assets/Tag.png"
 import Bag  from "../assets/Bag.png"
 import Human   from "../assets/Human.png"
-import DashBoard from "../../src/assets/Dashboard.png"
+import Dash from "../../src/assets/Dashboard.png"
 const Explore = () => {
   const CateGoryData= [
     { catImg:Design , catTitle:"Design" ,catText:"235 jobs available"},
@@ -48,7 +48,7 @@ const Explore = () => {
             <p className="text-white md:text-left text-center">start posting jobs only for $10</p>
             <button className='bg-white p-2 text-skyBlue hover:bg-[#181742]  w-full md:w-[180px] hover:text-white transition-all'>Sign up for free</button>
          </div>
-         <img src={ DashBoard} alt="" />
+         <img src={Dash} alt="" />
          </div>
         </div>
     </div>
