@@ -1,3 +1,136 @@
+// import Revolut from "../assets/Revolut.png";
+// import DropBox from "../assets/DropBox.png";
+// import Pitch from "../assets/Pitch.png";
+// import BlinkList from "../assets/BlinkList.png";
+// import ClassPass from "../assets/ClassPass.png";
+// import Canva from "../assets/Canva.png";
+// import Godaddy from "../assets/Godaddy.png";
+// import Twitter from "../assets/Twitter.png";
+// import Nomad from "../assets/Nomad.png";
+// import Terraform from "../assets/Terraform.png";
+// import Packer from "../assets/Packer.png";
+// import Netlify from "../assets/Netlify.png";
+// import Maze from "../assets/Maze.png";
+// import Udacity from "../assets/Udacity.png";
+// import Webflow from "../assets/Webflow.png";
+
+// const jobData = [
+//   {
+//     jobsImg: Revolut,
+//     jobTitle: "Email Marketing",
+//     jobLocation: "Revolut, Madrid, Spain",
+//     jobDescription: "Revolut is looking for a Customer Manager to join the marketing team...",
+//     jobTypes: ["marketing", "design"],
+//   },
+//   {
+//     jobsImg: DropBox,
+//     jobTitle: "Brand Designer",
+//     jobLocation: "Dropbox, San Francisco, US",
+//     jobDescription: "DropBox is looking for a Customer Manager to join the marketing team...",
+//     jobTypes: ["design", "business"],
+//   },
+//   {
+//     jobsImg: Pitch,
+//     jobTitle: "Email Marketing",
+//     jobLocation: "Pitch, Berlin, Germany",
+//     jobDescription: "Pitch is looking for a Customer Manager to join the marketing team...",
+//     jobTypes: ["marketing"],
+//   },
+//   {
+//     jobsImg: BlinkList,
+//     jobTitle: "Visual Design",
+//     jobLocation: "BlinkList, Berlin, Germany",
+//     jobDescription: "BlinkList is looking for a Customer Manager to join the marketing team...",
+//     jobTypes: ["design"],
+//   },
+//   {
+//     jobsImg: ClassPass,
+//     jobTitle: "Product Designer",
+//     jobLocation: "ClassPass, Manchester, UK",
+//     jobDescription: "ClassPass is looking for a Visual Designer to help the team design...",
+//     jobTypes: ["marketing", "design"],
+//   },
+//   {
+//     jobsImg: Canva,
+//     jobTitle: "Lead Designer",
+//     jobLocation: "Canva, Ontario, Canada",
+//     jobDescription: "Canva is looking for a Lead Engineer to help develop...",
+//     jobTypes: ["design", "business"],
+//   },
+//   {
+//     jobsImg: Godaddy,
+//     jobTitle: "Brand Strategist",
+//     jobLocation: "Godaddy, Marseille, France",
+//     jobDescription: "Godaddy is looking for a Lead Engineer to help develop...",
+//     jobTypes: ["marketing"],
+//   },
+//   {
+//     jobsImg: Twitter,
+//     jobTitle: "Data Analyst",
+//     jobLocation: "Twitter, San Diego, USA",
+//     jobDescription: "Twitter is looking for a Data Analyst to help develop...",
+//     jobTypes: ["technology"],
+//   },
+// ];
+
+// const latestJobsData = [
+//   {
+//     jobsImg: Nomad,
+//     jobTitle: "Social Media Assistant",
+//     jobLocation: "Nomad, Paris, France",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: DropBox,
+//     jobTitle: "Brand Designer",
+//     jobLocation: "Dropbox, San Francisco, US",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Terraform,
+//     jobTitle: "Interactive Developer",
+//     jobLocation: "Terraform, Hamburg, Germany",
+//     jobDescription: "Terraform is looking for a Customer Manager to join the marketing team...",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Packer,
+//     jobTitle: "HR Manager",
+//     jobLocation: "Packer, Lucerne, Switzerland",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Netlify,
+//     jobTitle: "Social Media Assistant",
+//     jobLocation: "Netlify, Paris, France",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Maze,
+//     jobTitle: "Brand Designer",
+//     jobLocation: "Maze, San Francisco, USA",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Udacity,
+//     jobTitle: "Interactive Developer",
+//     jobLocation: "Udacity, Hamburg, Germany",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+//   {
+//     jobsImg: Webflow,
+//     jobTitle: "HR Manager",
+//     jobLocation: "Webflow, Lucerne, Switzerland",
+//     jobTypes: ["full-time", "marketing", "design"],
+//   },
+// ];
+
+// export const JobInfo = jobData;
+// export const LatestJobInfo = latestJobsData;
+
+// export default { JobInfo, LatestJobInfo };
+
+
 import Revolut from "../assets/Revolut.png";
 import DropBox from "../assets/DropBox.png";
 import Pitch from "../assets/Pitch.png";
@@ -6,7 +139,14 @@ import ClassPass from "../assets/ClassPass.png";
 import Canva from "../assets/Canva.png";
 import Godaddy from "../assets/Godaddy.png";
 import Twitter from "../assets/Twitter.png";
-const JobData = () => {
+import Nomad from "../assets/Nomad.png";
+import Terraform from "../assets/Terraform.png";
+import Packer from "../assets/Packer.png";
+import Netlify from "../assets/Netlify.png";
+import Maze from "../assets/Maze.png";
+import Udacity from "../assets/Udacity.png";
+import Webflow from "../assets/Webflow.png";
+
     const FeatureData = [
         {
             jobsImg: Revolut,
@@ -68,10 +208,76 @@ const JobData = () => {
             jobPP: "Twitter is looking for a Data Analyst to help develop...",
             jobType1: "technology",
         },
-    ]; // Your data here
-    return FeatureData;
-};
+    ]; 
 
-export const FeatureData = JobData(); // Export the data as a named export
 
-export default JobData;
+    const LatestJobInfo = [
+        {
+            jobsImg: Nomad,
+            jobTitle: "social media assistant",
+            jobLocation: "Nomad pasris, france",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg: DropBox,
+            jobTitle: "Brand designer",
+            jobLocation: "Dropbox San Francisco, US",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg:Terraform,
+            jobTitle: "interactive developer",
+            jobLocation: "Terraform hamburg, Germany",
+            jobPP: "Pitch is looking for a Customer Manager to join the marketing team...",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg:Packer,
+            jobTitle: "hr manager",
+            jobLocation:"Packer lucern,switzerland",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg: Netlify,
+            jobTitle: "social media assistant",
+            jobLocation: "Netlify paris france ",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design",
+        },
+        {
+            jobsImg: Maze,
+            jobTitle: "brand Designer",
+            jobLocation: " Maze sanfrancisco, Usa",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg: Udacity,
+            jobTitle: "interactive developer",
+            jobLocation: "Udacity hamburg, Germany",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+        {
+            jobsImg: Webflow,
+            jobTitle: "hr manager",
+            jobLocation:"Packer lucern,switzerland",
+            jobType1: "full-time",
+            jobType2: "marketing",
+            jobType3 : "design"
+        },
+    ]
+
+
+    export { FeatureData , LatestJobInfo };

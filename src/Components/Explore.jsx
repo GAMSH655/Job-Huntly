@@ -39,10 +39,7 @@ const Explore = () => {
           }
            <p className="text-[#4640DE] font-semibold flex justify-center items-center md:hidden m-[20px]">show all jobs <FaArrowRight/></p>
         </div>
-         <div className="bg-skyBlue mt-[50px] w-full ">
-          {/* <div className="h-[100px] w-[250px] bg-white trans">
-
-          </div> */}
+         <div className=" mt-[50px] w-full " id='rectangle'>
          <div className="flex flex-wrap justify-center items-center md:justify-evenly p-[10px] md:p-[20px]">
          <div className=" p-[15px] md:p-[30px] ">
          <h3 className="text-white font-bold text-[1.5rem] md:text-[3rem]">Start posting  

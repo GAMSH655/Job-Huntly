@@ -92,3 +92,16 @@ body{
     right: 20px;
    
   }
+  #rectangle {
+    background-image: url("../src/assets/Rectangle.png");
+    background-size: cover; /* Adjusts image to cover the element */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-position: center; /* Centers the image */
+}
+#pat{
+  background-image: url("../src/assets/Pattern.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}

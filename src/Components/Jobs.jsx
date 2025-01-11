@@ -1,8 +1,7 @@
 import { FaArrowRight } from 'react-icons/fa6'
 import "react-multi-carousel/lib/styles.css";
-import { FeatureData } from '../Components/JobData'
+import { FeatureData } from '../Components/JobData';
 const Jobs = () => {
-
   return (
     <div>
     <div className="flex justify-between  m-[50px]">
