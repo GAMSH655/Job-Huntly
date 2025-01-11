@@ -4,7 +4,7 @@ import { LatestJobInfo } from "../Components/JobData"
 import { GoDotFill } from "react-icons/go";
 const LatestJobs = () => {
   return (
-    <div className='bg-[#F7F8FC] ' id='pat'>
+    <div className='bg-[#F7F8FC] m-[15px] md:m-[30px] p-[15px] md:p-[30px]' id='pat'>
        <div className="flex justify-between ">
               <h3 className="text-[20px] md:text-[3rem] m-[20px] font-bold">
                  Featured <span className="text-skyBlue">jobs</span>
